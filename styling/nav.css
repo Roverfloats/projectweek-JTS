@@ -2,12 +2,19 @@
 background-color: #007ac8;
 height: 100%;
 width: 200px;
-
+font-family: 'Poppins', sans-serif;
 }
 
 .nav-button{
     height: 40px;
     width: 80%;
-    background-color: aqua;
     margin: 20px;
+    transition: all 0.3s;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-button:hover{
+    background-color: #139aee ;
+    transition: all 0.3s;
 }
