@@ -1,5 +1,21 @@
 .footer{
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: black;
+    display: flex;
+}
+
+.footer-text{
+    flex-grow: 1;
+    background-color: red;
+}
+
+.footer-contact{
+    flex-grow: 1;
+    background-color: green;
+}
+
+.footer-tbd{
+    flex-grow: 1;
+    background-color: blue;
 }
