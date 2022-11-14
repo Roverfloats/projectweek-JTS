@@ -1,0 +1,13 @@
+.nav{
+background-color: #007ac8;
+height: 100%;
+width: 200px;
+
+}
+
+.nav-button{
+    height: 40px;
+    width: 80%;
+    background-color: aqua;
+    margin: 20px;
+}
