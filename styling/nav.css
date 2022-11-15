@@ -1,23 +1,24 @@
 .nav{
-background-color: #007ac8;
+background-color: #e6e1d3;
 width: 200px;
 font-family: 'Poppins', sans-serif;
 display: flex;
 flex-direction: column;
+/* border-right: 5px  solid; */
 }
 
 .nav-button{
     width: 80%;
-    height: 30px;
+    height: max-content;
     margin: 10px;
     margin-left: 10%;
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s;
     text-decoration: none;
 }
 
 .nav-button:hover{
-    background-color: #139aee ;
+    background-color: lightgray ;
     transition: all 0.3s;
 }
