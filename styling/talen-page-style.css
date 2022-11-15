@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color:red ;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+* {
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bedrijven-text{
+    height: max-content;
+    width: 600px;
+    border: 5px black solid;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+.talen-text{
+    height: max-content;
+    width: 600px;
+    border: 5px black solid;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+}
+
+.text-head{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.bedrijven-head{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
