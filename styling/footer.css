@@ -6,16 +6,53 @@
 }
 
 .footer-text{
+
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    background-color: red;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-contact{
+    display: flex;
     flex-grow: 1;
-    background-color: green;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-tbd{
-    flex-grow: 1;
-    background-color: blue;
+    flex-grow: 2;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+
+.email-link{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-info{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+    width: max-content;
+}
+
+.footer-info-head{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: max-content;
+    width: max-content;
 }
