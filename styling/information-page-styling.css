@@ -22,6 +22,22 @@
     height: 100%;
     display: flex;
     flex-direction: row-reverse;
-    background-color: lightgray;
+}
+
+.building-img{
+    width: 800px;
+    height: 320px;
+    border: black solid 5px;
+    margin: 40px;
+}
+
+.info-text{
+    width: 400px;
+    height: max-content;
+    border: black solid 5px;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    padding: 10px;
 }
 

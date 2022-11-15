@@ -32,8 +32,9 @@
 }
 
 .banen-text{
+    padding: 10px;
     width: 400px;
-    height: 450px;
+    height: max-content;
     border: solid black 5px;
     margin: 40px;
     font-family: 'Poppins', sans-serif;
